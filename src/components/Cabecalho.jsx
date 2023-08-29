@@ -6,5 +6,5 @@ export default function Cabecalho() {
           <h1>Vite + React</h1>
         </header>
     </>
-  )
+  );
 }
