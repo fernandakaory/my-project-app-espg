@@ -1,0 +1,29 @@
+.tblEstilo {
+    border: 2px solid black;
+
+    & thead {
+        background-color: #ffe4c4;
+
+        & th {
+            border: 2px solid black;
+        }
+    }
+}
+
+/* & tbody {
+          & tr {
+            &:hover {
+              background-color: #e2e2e2;
+            }
+            & tr{
+                border: 2px solid #ccc;
+
+                &:firs-child {
+                    text-align: center;
+                }
+                &:last-child{
+                    text-align: center;
+                }
+            }
+          }
+        } */

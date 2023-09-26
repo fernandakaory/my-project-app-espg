@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
+import styles from "./Cabecalho.module.css";
 
 export default function Cabecalho() {
   return (
     <>
-        <header>
+        <header className= {styles.cabecalho}>
           <h1>Vite + React</h1>
+          <img src="/img/caixa.png" alt="Caixa" />
 
           {/* Crie uma lista com 5 links para as nossas rotas:
           Obs: Utilize o componente Link do router-dom */}
