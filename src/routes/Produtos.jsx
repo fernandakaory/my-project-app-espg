@@ -44,7 +44,7 @@ export default function Produtos() {
               </tbody>
               <tfoot>
                 <tr>
-                  <td colSpan={5}>PRODUTOS INFORMÁTICOS - QTD = </td>
+                  <td colSpan={5}>PRODUTOS INFORMÁTICOS - QTD = {listaProdutosLocal.length}</td>
                 </tr>
               </tfoot>
             </table>
