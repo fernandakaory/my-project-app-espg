@@ -12,9 +12,7 @@ export default function App() {
     <>
       <div className="container">
         <Cabecalho />
-
         {/* <img src={reactLogo} alt={reactLogoAlt} /> */}
-
         {/* <Conteudo reactLogoProps={reactLogo} reactLogoAltProps={reactLogoAlt} /> */}
         <Outlet />
         <Rodape listaProps={listaLinks} />

@@ -1,29 +1,44 @@
 .tblEstilo {
-    border: 2px solid black;
+    border: 2px solid #ccc;
+    border-collapse: collapse;
+    margin: 0 auto;
 
     & thead {
         background-color: #ffe4c4;
 
         & th {
-            border: 2px solid black;
+            border: 2px solid #ccc;
+            text-align: center;
         }
     }
-}
 
-/* & tbody {
-          & tr {
+    & tbody {
+        & tr {
             &:hover {
-              background-color: #e2e2e2;
+                background-color: #e2e2e2;
             }
-            & tr{
+
+            & td {
                 border: 2px solid #ccc;
 
-                &:firs-child {
+                &:first-child {
                     text-align: center;
                 }
-                &:last-child{
+
+                &:last-child {
                     text-align: center;
                 }
             }
-          }
-        } */
+        }
+    }
+
+    & tfoot {
+        & tr {
+            & td {
+                border: 2px solid #ccc;
+                text-align: center;
+            }
+        }
+    }
+
+}
