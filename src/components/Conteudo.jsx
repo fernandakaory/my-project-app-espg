@@ -1,4 +1,4 @@
-export default function Conteudo(props) {
+export default function Conteudo() {
   //area declarativa de variaveis, funções e tal
 
   return (
@@ -10,7 +10,7 @@ export default function Conteudo(props) {
           <a href="/">Home Page</a>
         </p>
         <button onClick={() => alert("Hello World")}>Click me</button>
-        <img src={props.reactLogoProps} alt={props.reactLogoAltProps} />
+        {/* <img src={props.reactLogoProps} alt={props.reactLogoAltProps} /> */}
       </section>
     </>
   );

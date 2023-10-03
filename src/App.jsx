@@ -6,16 +6,14 @@ import styles from "./App.module.css";
 export default function App() {
   //Lista de links redes sociais
 
-  let listaLinks = [<li>Github</li>, <li>X</li>, <li>Reddit</li>];
-
   return (
     <>
-      <div className="container">
+      <div className={styles.container}>
         <Cabecalho />
         {/* <img src={reactLogo} alt={reactLogoAlt} /> */}
         {/* <Conteudo reactLogoProps={reactLogo} reactLogoAltProps={reactLogoAlt} /> */}
         <Outlet />
-        <Rodape listaProps={listaLinks} />
+        <Rodape/>
       </div>
     </>
   );
